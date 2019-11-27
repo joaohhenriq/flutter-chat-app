@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class IconButtonChats extends StatelessWidget {
+class CustomIconButton extends StatelessWidget {
 
   final IconData iconData;
   final Function onPressed;
 
-  const IconButtonChats({Key key, this.iconData, this.onPressed}) : super(key: key);
+  const CustomIconButton({Key key, this.iconData, this.onPressed}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_app/widgets/chats/icon_button_chats.dart';
+import 'package:flutter_chat_app/shared/custom_icon_button.dart';
 
 class BottomAppBarChats extends StatelessWidget {
   @override
@@ -11,23 +11,23 @@ class BottomAppBarChats extends StatelessWidget {
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
-          IconButtonChats(
+          CustomIconButton(
               iconData: Icons.message,
               onPressed: () {
                 print("Teste icon button");
               }),
-          IconButtonChats(
+          CustomIconButton(
               iconData: Icons.view_list,
               onPressed: () {
                 print("Teste icon button");
               }),
           SizedBox(width: 25),
-          IconButtonChats(
+          CustomIconButton(
               iconData: Icons.call,
               onPressed: () {
                 print("Teste icon button");
               }),
-          IconButtonChats(
+          CustomIconButton(
               iconData: Icons.person_outline,
               onPressed: () {
                 print("Teste icon button");
